@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+.container div{
+border: 1px solid black;
+}
+.row{
+    display: flex;
+}
+.row > div{
+    width: 100px;
+    height: 100px;
+}
